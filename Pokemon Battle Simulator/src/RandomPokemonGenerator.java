@@ -13,7 +13,7 @@ public class RandomPokemonGenerator
 
 				String[][] Pokemon =
 					{
-							{ "Chimchar", "Piplup", "Turtwig" },
+							{ "Charmander", "Squirtle", "Bulbasaur" },
 							{ "30 HP", "35 HP", "40 HP" },
 							{ "Fire", "Water", "Grass" },
 							{ "56 ATT", "38 ATT", "45 ATT" },
