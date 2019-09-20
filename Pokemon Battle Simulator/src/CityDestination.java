@@ -5,18 +5,27 @@ public class CityDestination {
 	static int intInput;
 
 	public static void showCityPokemon() {
+
+		delayCode(3);
 		System.out.println(
-				"Now that you have received your Pokemon, you need to choose a city to start your pokemon journey...");
+				"Now that you have received your Pokemon, you need to choose a city to start your Pokemon journey...");
+		delayCode(3);
 
 		System.out.println("But be careful! Some cities contain more challenging Pokemon than others...");
+		delayCode(3);
 
 		System.out.println("");
 		System.out.println(
 				"I'm sure you are wondering what kind of Pokemon you might see in each city...let me show you!");
+		delayCode(3);
 
 		System.out.println("The Pokemon in each city correspond with the difficulty level of each city.");
+		delayCode(3);
+
 		System.out
 				.println("If the difficulty of the city is lower, the Pokemon will be less powerful, and vise versa.");
+		delayCode(3);
+
 		System.out.println("Press enter to show the Fuchsia City Pokemon");
 		System.out.println("");
 
@@ -128,10 +137,10 @@ public class CityDestination {
 		}
 
 		System.out.println("Okay trainer...");
-		delayCode(3);
+		delayCode(4);
 		System.out.println(
 				"You have your starter Pokemon, and you know what kind of Pokemon you may encounter on your journey...");
-		delayCode(3);
+		delayCode(4);
 		System.out.println("Are you ready to begin?");
 		System.out.println("(1) Yes");
 		System.out.println("(2) No");
