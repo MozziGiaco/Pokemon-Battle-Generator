@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class RandomPokemonGenerator {
+	static String strInput;
+	static int intInput;
 
 	public static void generatePokemon() {
 		Scanner strInput = new Scanner(System.in);
@@ -23,7 +25,8 @@ public class RandomPokemonGenerator {
 		}
 		System.out.println("");
 		int randomNum = (int) (Math.random() * 3);
-
+		System.out.println("Hit enter to see which starter Pokemon you will get!");
+		String continueCode = strInput.nextLine();
 		System.out.println("Your random starter pokemon will be...");
 		delayCode(3);
 		System.out.println(Pokemon[0][randomNum] + "!");

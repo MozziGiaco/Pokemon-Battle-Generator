@@ -5,8 +5,12 @@ public class CityDestination {
 	static int intInput;
 
 	public static void showCityPokemon() {
+		Scanner strInput = new Scanner(System.in);
 
 		delayCode(3);
+		System.out.println("Hit enter to continue...");
+		String continueCode = strInput.nextLine();
+
 		System.out.println(
 				"Now that you have received your Pokemon, you need to choose a city to start your Pokemon journey...");
 		delayCode(3);
@@ -27,6 +31,8 @@ public class CityDestination {
 		delayCode(3);
 
 		System.out.println("Press enter to show the Fuchsia City Pokemon");
+		String continueCode1 = strInput.nextLine();
+
 		System.out.println("");
 
 		System.out.println("In Fuchsia City, you might find Pokemon like...");
@@ -46,6 +52,7 @@ public class CityDestination {
 		System.out.println("And many more!");
 		delayCode(1);
 		System.out.println("Press enter to show the Lumiosa City Pokemon");
+		String continueCode2 = strInput.nextLine();
 
 		System.out.println("");
 		System.out.println("In Lumiosa City, you might find Pokemon like...");
@@ -64,6 +71,7 @@ public class CityDestination {
 		System.out.println("And many more!");
 		delayCode(1);
 		System.out.println("Press enter to show the Cherrygrove City Pokemon");
+		String continueCode3 = strInput.nextLine();
 
 		System.out.println("");
 		System.out.println("In Cherrygrove City, you might find Pokemon like...");
@@ -82,6 +90,7 @@ public class CityDestination {
 		System.out.println("And many more!");
 		delayCode(1);
 		System.out.println("Press enter to show the Olivine City Pokemon");
+		String continueCode4 = strInput.nextLine();
 
 		System.out.println("");
 		System.out.println("And finally, in Olivine City, you might find Pokemon like...");
@@ -99,7 +108,7 @@ public class CityDestination {
 		}
 		System.out.println("And many more! (They're all legendaries, if you couldn't tell...)");
 
-		delayCode(1);
+		delayCode(2);
 
 	}
 
