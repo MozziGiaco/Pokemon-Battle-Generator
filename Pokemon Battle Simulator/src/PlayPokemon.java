@@ -1,13 +1,15 @@
 
-public class PlayPokemon {
+public class PlayPokemon
+	{
 
-	public static void main(String[] args) {
-		RandomPokemonGenerator.generatePokemon();
-		RandomPokemonGenerator.givePokemon();
+		public static void main(String[] args)
+			{
+				RandomPokemonGenerator.generatePokemon();
+				RandomPokemonGenerator.givePokemon();
 
-		CityDestination.showCityPokemon();
-		CityDestination.chooseCity();
-		BattleGenerator.fightBattle();
+				CityDestination.showCityPokemon();
+				CityDestination.chooseCity();
+				BattleGenerator.fightBattle();
+			}
+
 	}
-
-}
