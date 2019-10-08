@@ -1,56 +1,46 @@
 
 public class Pokemon
+
 	{
-		public static String fuschiaPokemon;
-		public static String lumiosePokemon;
-		public static String cherrygrovePokemon;
-		public static String olivinePokemon;
+		public static String Name;
+		public static int HitPoints;
+		public static String Type;
 
-		public Pokemon(String f, String l, String c, String o)
+		public Pokemon(String n, int hp, String t)
 			{
-				fuschiaPokemon = f;
-				lumiosePokemon = l;
-				cherrygrovePokemon = c;
-				olivinePokemon = o;
+				Name = n;
+				HitPoints = hp;
+				Type = t;
 			}
 
-		public static String getFuschiaPokemon()
+		public static String getName()
 			{
-				return fuschiaPokemon;
+				return Name;
 			}
 
-		public static void setFuschiaPokemon(String fuschiaPokemon)
+		public static void setName(String name)
 			{
-				Pokemon.fuschiaPokemon = fuschiaPokemon;
+				Name = name;
 			}
 
-		public static String getLumiosePokemon()
+		public static int getHitPoints()
 			{
-				return lumiosePokemon;
+				return HitPoints;
 			}
 
-		public static void setLumiosePokemon(String lumiosePokemon)
+		public static void setHitPoints(int hitPoints)
 			{
-				Pokemon.lumiosePokemon = lumiosePokemon;
+				HitPoints = hitPoints;
 			}
 
-		public static String getCherrygrovePokemon()
+		public static String getType()
 			{
-				return cherrygrovePokemon;
+				return Type;
 			}
 
-		public static void setCherrygrovePokemon(String cherrygrovePokemon)
+		public static void setType(String type)
 			{
-				Pokemon.cherrygrovePokemon = cherrygrovePokemon;
+				Type = type;
 			}
 
-		public static String getOlivinePokemon()
-			{
-				return olivinePokemon;
-			}
-
-		public static void setOlivinePokemon(String olivinePokemon)
-			{
-				Pokemon.olivinePokemon = olivinePokemon;
-			}
 	}

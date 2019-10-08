@@ -6,7 +6,6 @@ public class PlayPokemon
 			{
 				RandomPokemonGenerator.generatePokemon();
 				RandomPokemonGenerator.givePokemon();
-
 				CityDestination.showCityPokemon();
 				CityDestination.chooseCity();
 				BattleGenerator.fightBattle();
