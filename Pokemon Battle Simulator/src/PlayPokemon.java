@@ -8,7 +8,7 @@ public class PlayPokemon
 				RandomPokemonGenerator.givePokemon();
 				CityDestination.showCityPokemon();
 				CityDestination.chooseCity();
-				BattleGenerator.fightBattle();
+				BattleFighter.fightBattle();
 			}
 
 	}

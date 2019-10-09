@@ -1,9 +1,9 @@
-public class MoveSet
+public class MyMoveSet
 	{
-		public static String MoveName;
-		public static int MovePower;
+		private static String MoveName;
+		private static int MovePower;
 
-		public MoveSet(String mn, int mp)
+		public MyMoveSet(String mn, int mp)
 			{
 				MoveName = mn;
 				MovePower = mp;

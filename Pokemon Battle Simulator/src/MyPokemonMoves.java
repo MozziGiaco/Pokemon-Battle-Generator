@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
-public class PokemonMoves
+public class MyPokemonMoves
 	{
-		static ArrayList<MoveSet> MyPokemonMoves = new ArrayList<MoveSet>();
+		static ArrayList<MyMoveSet> MyPokemonMoves = new ArrayList<MyMoveSet>();
 
 		public static void main(String[] args)
 			{
@@ -11,9 +11,9 @@ public class PokemonMoves
 
 		public static void loadMoveData()
 			{
-				MyPokemonMoves.add(new MoveSet("Flamethrower", 95));
-				MyPokemonMoves.add(new MoveSet("Surf", 95));
-				MyPokemonMoves.add(new MoveSet("Earthquake", 100));
+				MyPokemonMoves.add(new MyMoveSet("Flamethrower", 95));
+				MyPokemonMoves.add(new MyMoveSet("Surf", 95));
+				MyPokemonMoves.add(new MyMoveSet("Earthquake", 100));
 			}
 
 	}

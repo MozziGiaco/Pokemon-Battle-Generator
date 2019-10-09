@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BattleGenerator
+public class BattleFighter
 	{
 
 		public static void fightBattle()

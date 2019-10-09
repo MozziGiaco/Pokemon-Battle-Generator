@@ -1,12 +1,12 @@
 
-public class Pokemon
+public class MyPokemon
 
 	{
-		public static String Name;
-		public static int HitPoints;
-		public static String Type;
+		private static String Name;
+		private static int HitPoints;
+		private static String Type;
 
-		public Pokemon(String n, int hp, String t)
+		public MyPokemon(String n, int hp, String t)
 			{
 				Name = n;
 				HitPoints = hp;
