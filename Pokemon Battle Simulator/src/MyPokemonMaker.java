@@ -9,11 +9,11 @@ public class MyPokemonMaker
 
 			}
 
-		public static void loadData()
+		public static void loadMyPokemonData()
 			{
-				MyPokemon.add(new MyPokemon("Chimchar", 500, "Fire"));
-				MyPokemon.add(new MyPokemon("Piplup", 450, "Water"));
-				MyPokemon.add(new MyPokemon("Turtwig", 550, "Grass"));
+				MyPokemon.add(new MyPokemon("Charmander", 50, "Fire"));
+				MyPokemon.add(new MyPokemon("Squirtle", 50, "Water"));
+				MyPokemon.add(new MyPokemon("Bulbasaur", 50, "Grass"));
 
 			}
 

@@ -4,16 +4,15 @@ public class MyPokemonMoves
 	{
 		static ArrayList<MyMoveSet> MyPokemonMoves = new ArrayList<MyMoveSet>();
 
-		public static void main(String[] args)
-			{
-
-			}
-
 		public static void loadMoveData()
 			{
-				MyPokemonMoves.add(new MyMoveSet("Flamethrower", 95));
-				MyPokemonMoves.add(new MyMoveSet("Surf", 95));
-				MyPokemonMoves.add(new MyMoveSet("Earthquake", 100));
+				int randomNumber = (int) (Math.random() * 10 + 90);
+
+				MyPokemonMoves.add(new MyMoveSet("Flamethrower", randomNumber));
+				MyPokemonMoves.add(new MyMoveSet("Surf", randomNumber));
+				MyPokemonMoves.add(new MyMoveSet("Earthquake", randomNumber));
+
+				System.out.println(MyPokemonMoves.get(2).getMovePower());
 			}
 
 	}

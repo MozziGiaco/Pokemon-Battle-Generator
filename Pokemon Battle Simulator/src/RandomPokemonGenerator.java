@@ -4,7 +4,7 @@ public class RandomPokemonGenerator
 	{
 		static String strInput;
 		static int intInput;
-
+		static int starterChoice;
 		public static void generatePokemon()
 			{
 				Scanner strInput = new Scanner(System.in);
@@ -87,7 +87,7 @@ public class RandomPokemonGenerator
 
 				System.out.println("(3) Bulbasaur");
 
-				int starterChoice = intInput.nextInt();
+				 starterChoice = intInput.nextInt();
 
 				System.out.println("I'm sure you will be happy with this Pokemon!");
 			}
