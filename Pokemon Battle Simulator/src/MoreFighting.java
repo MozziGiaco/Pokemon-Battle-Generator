@@ -42,8 +42,6 @@ public class MoreFighting
 						System.out.println(MyPokemonMaker.MyPokemon.get(RandomPokemonGenerator.starterChoice).getName()
 								+ " used " + MyMoveSet.getMoveName() + " and dealt " + MyMoveSet.getMovePower()
 								+ " damage!");
-						OpponentPokemonMaker.EnemyPokemon
-								.get(OpponentPokemon.getOpponentHitPoints() - MyMoveSet.getMovePower());
 
 						delayCode(2);
 
@@ -52,7 +50,6 @@ public class MoreFighting
 										.getOpponentName() + " used " + OpponentMoveSet.getOpponentMoveName()
 										+ " and dealt " + OpponentMoveSet.getOpponentMovePower() + " damage!");
 
-						MyPokemonMaker.MyPokemon.get(MyPokemon.getHitPoints() - OpponentMoveSet.getOpponentMovePower());
 						delayCode(2);
 					}
 			}
