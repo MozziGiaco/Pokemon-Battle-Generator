@@ -31,7 +31,7 @@ public class OpponentPokemonMoves
 				EnemyMoves.add(new OpponentMoveSet("Mach Punch", randomNumber1));
 				EnemyMoves.add(new OpponentMoveSet("Surf", randomNumber1));
 				EnemyMoves.add(new OpponentMoveSet("Flamethrower", randomNumber1));
-				// (hard)
+				// (almost impossible)
 				EnemyMoves.add(new OpponentMoveSet("Ancient Power", randomNumber2));
 				EnemyMoves.add(new OpponentMoveSet("Dragon Claw", randomNumber2));
 				EnemyMoves.add(new OpponentMoveSet("Fire Blast", randomNumber2));

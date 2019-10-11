@@ -6,13 +6,12 @@ public class MyPokemonMoves
 
 		public static void loadMoveData()
 			{
-				int randomNumber = (int) (Math.random() * 10 + 90);
+				int randomNumber = (int) (Math.random() * 10 + 80);
 
 				MyPokemonMoves.add(new MyMoveSet("Flamethrower", randomNumber));
 				MyPokemonMoves.add(new MyMoveSet("Surf", randomNumber));
 				MyPokemonMoves.add(new MyMoveSet("Earthquake", randomNumber));
 
-				System.out.println(MyPokemonMoves.get(2).getMovePower());
 			}
 
 	}
